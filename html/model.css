@@ -1,0 +1,41 @@
+.box{
+    padding: 30px 20px 40px 50px;
+    border: 2px solid red;
+    margin: 25px;
+    background-color: salmon;
+}
+.rectangle{
+    border: 15px solid tomato;
+    height: 80px;
+    width: 85px;
+}
+.rectangle1{
+    border: 2px solid red;
+    height: 60px;
+    width: 52px;
+}
+.rectangle2{
+    border: 2px solid red;
+    height: 30px;
+    width: 26px;
+    margin-left: 10px;
+}
+.rectangle3{
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+   display: inline-block;
+}
+.rectangle4{
+    border: 2px solid red;
+    height: 100px;
+    width: 200px;
+   display: inline-block;
+}
+body{
+    background-image: url('https://cutewallpaper.org/21/wallpaper-hd-for-laptop/79+-Hd-Laptop-Wallpapers-on-WallpaperPlay.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

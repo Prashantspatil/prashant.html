@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Registration Form</title>
+</head>
+<body>
+   <form>
+        
+        <label>Enter First Name</label>
+        <input type="text" name="firstname" placeholder="Enter First Name" required minlength="2" maxlength="20" autocomplete="off"> <!--camel case-->
+
+        <label>Enter Last Name</label>
+        <input type="text" name="lastname" placeholder="Enter Last Name" required minlength="2" maxlength="15" autocomplete="off"><br>
+        <label>Enter age</label>
+        <input type="number" name="age" required min="21" max="35"><br>
+        <!--div tag also can be used instead of br-->
+
+        <!--email-->
+        <label>Enter Email id</label>
+        <input type="email" name="email" placeholder="Enter Email id" required>
+        <label for="">date</label>
+         <input type="datetime-local" name="datetime-local"><br>
+         <label for="">password</label>
+         <input type="password" name="password" required minlength="8" maxlength="15"><br>
+         <label for="">gender</label>
+         <input type="radio" name="gender" checked>Male <!--default option-->
+         <input type="radio" name="gender">Female
+         <input type="radio" name="gender">Others<br>
+
+         <label>Select Course</label>
+         <input type="checkbox">java
+         <input type="checkbox" disabled>python <!--disabaling other options-->
+         <input type="checkbox">DotNet <br>
+
+         <label for="">Select City</label>
+         <select>
+            <option>Select</option>
+             <option>Bengaluru</option>
+             <option>Mangaluru</option>
+             <option>Chikmagaluru</option>
+         </select><br>
+         <label for="">date of birth</label>
+         <input type="date" name="date of birth"><br>
+         <label for="">mobile number</label>
+         <input type="tel" name="mobile number" placeholder="+91 7349021516" required minlength="10" maxlength="12"><br> <!--tel or number-->
+         <label for="">address</label>
+         <textarea rows="10" cols="10"> </textarea><br>
+
+         <!--naukri.com-->
+         <label>Select File</label>
+         <input type="file" name="uploadfile"><br>
+         <button type="submit">Submit</button> <!--submit/button-->
+         <button type="reset">Reset</button>
+
+         <!--task : html5 validation & how to turn off auto suggestion-->
+
+
+         <!--limitations of html
+              alignment
+              Color
+              Font size
+              Background image
+              Letterspacing
+              Wordspacing
+              Margin
+              Padding
+              Syntax of CSS(Cascading Stylesheet)
+              selector {
+                  property : value;
+                }-->
+
+
+              <!--task : audio & video tags-->
+           <audio src=""></audio>
+           <video src=""></video>
+
+           <!--task : how to load youtube video in html page-->
+
+         
+</body>
+</html>
+
